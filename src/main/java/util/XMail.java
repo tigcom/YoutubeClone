@@ -25,7 +25,7 @@ public class XMail {
 		props.setProperty("mail.smtp.starttls.enable", "true");
 		props.setProperty("mail.smtp.ssl.protocols", "TLSv1.2");
 		props.setProperty("account.email", "25112002abcas@gmail.com");
-		props.setProperty("account.appas", "qjyd bvbe lgie vjai");
+		props.setProperty("account.appas", "*********************");
 		
 		return Session.getInstance(props, new Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
